@@ -18,7 +18,7 @@ class ExportUser implements FromView,ShouldAutoSize,WithEvents
     */
     public function collection()
     {
-        return User::all();
+        // return User::all();
     }
     public function __construct(array $report,$totalRow)
     {

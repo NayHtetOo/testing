@@ -11,13 +11,13 @@
             </tr>
         </thead>
         <tbody>
-            {{-- @foreach ($users as $user)
+            @foreach ($users as $user)
             <tr>
                 <td>{{ $user->id }}</td>
                 <td>{{ $user->name }}</td>
             </tr>
-            @endforeach --}}
-            <tr>
+            @endforeach
+            {{-- <tr>
                 <td>1</td>
                 <td>John</td>
                 <td>21</td>
@@ -34,7 +34,7 @@
                 <td>Merlin</td>
                 <td>23</td>
                 <td>Magway</td>
-            </tr>
+            </tr> --}}
         </tbody>
     </table>
 </div>
