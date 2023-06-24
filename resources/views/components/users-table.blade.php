@@ -6,6 +6,8 @@
             <tr>
                 <th>Id</th>
                 <th>Name</th>
+                <th>Age</th>
+                <th>Address</th>
             </tr>
         </thead>
         <tbody>
