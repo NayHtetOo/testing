@@ -11,12 +11,30 @@
             </tr>
         </thead>
         <tbody>
-            @foreach ($users as $user)
+            {{-- @foreach ($users as $user)
             <tr>
                 <td>{{ $user->id }}</td>
                 <td>{{ $user->name }}</td>
             </tr>
-            @endforeach
+            @endforeach --}}
+            <tr>
+                <td>1</td>
+                <td>John</td>
+                <td>21</td>
+                <td>Yangon</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>David</td>
+                <td>22</td>
+                <td>Mandalay</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Merlin</td>
+                <td>23</td>
+                <td>Magway</td>
+            </tr>
         </tbody>
     </table>
 </div>
