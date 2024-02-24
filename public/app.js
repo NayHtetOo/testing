@@ -2,8 +2,8 @@ import Echo from 'laravel-echo';
 import './bootstrap';
 import axios from 'axios';
 
-console.log("Value of input-message:");
-alert('hello');
+// console.log("Value of input-message:");
+// alert('hello');
 const form = document.getElementById('form');
 const inputMessage = document.getElementById('input-message');
 const listMessage = document.getElementById('list-messages');
